@@ -1,7 +1,7 @@
 // Weather App
 const express = require("express");
 const app = express();
-const bodyParser = require("body-parser");git init
+const bodyParser = require("body-parser");
 const https = require("https");
 
 app.use(bodyParser.urlencoded({ extended: true }));
