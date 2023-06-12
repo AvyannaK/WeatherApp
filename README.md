@@ -1,4 +1,10 @@
 # WeatherApp
+
+I adjusted the code to meet the requirements by creating the conditional that checked if the input was a number meeaning a zipcode. Depending on if it was a number (zip) or string(city name) determined which url the code will begin retriving data from to push into the original url used in classed. This specific data retrived was the lat and long coordinates set as new variables and fed into the url used in class using template variables. It then retrives specific data from that url and writes on the html page using variables for the data.
+
+
+
+
 Weather App Spotlight
 
 Reminders
